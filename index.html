@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Band Application Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form" id="form">
+            <h2>Band Apllication Form</h2>
+            <div class="form-control">
+                <label for="txtName">Name</label>
+                <input type="text" id="txtName" placeholder="Enter your full name">
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="txtEMail">eMail</label>
+                <input type="text" id="txtEMail" placeholder="Enter your eMail">
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="txtAge">Age</label>
+                <input type="text" id="txtAge" placeholder="Enter your age"/>
+                <small>Error</small>
+            </div>
+            
+            <label>Instruments</label>
+            <div class="form-instruments">
+                <div class="form-chk">
+                    <input type="checkbox" id="chkGuitar"><label for="chkGuitar">guitar</label>
+                </div>
+                <div class="form-chk">
+                    <input type="checkbox" id="chkKeyboard"><label for="chkKeyboard">keyboard</label>
+                </div>
+                <div class="form-chk">
+                    <input type="checkbox" id="chkBass"><label for="chkBass">bass</label>
+                </div>
+                <div class="form-chk">
+                    <input type="checkbox" id="chkDrums"><label for="chkDrums">drums</label>
+                </div>
+                <div class="form-chk">
+                    <input type="checkbox" id="chkSinger"><label for="chkSinger">singer</label>
+                </div>
+                <br/>
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="txtOther">Other</label>
+                <input  type = "text" id="txtOther"/>
+                <small>Error</small>
+            </div>
+             
+            <button id="cmdSubmit">Submit</button>
+            <button id="cmdClear">Clear</button>
+
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
